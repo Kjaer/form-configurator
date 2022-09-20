@@ -1,0 +1,19 @@
+.create-form-button-wrapper {
+  background: white;
+  padding: 2rem;
+  margin: -2rem -2rem 2rem;
+  border-radius: 4px 4px 0 0;
+}
+
+.create-form-button[type="button"] {
+  font-size: 1.2em;
+  font-weight: 900;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 1; /* hightlight from other button's border when grouped */
+  background-color: var(--color-primary);
+  letter-spacing: 5px;
+}

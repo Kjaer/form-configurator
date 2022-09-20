@@ -1,0 +1,127 @@
+{
+  "type": "form",
+  "name": "simpleForm",
+  "children": [
+    {
+      "type": "label",
+      "labelText": "What is your name?",
+      "children": [
+        {
+          "type": "text",
+          "name": "firstName",
+          "placeholder": "Max"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "What is your last name?",
+      "children": [
+        {
+          "type": "text",
+          "name": "lasName",
+          "placeholder": "Mustermann"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "How old are you?",
+      "children": [
+        {
+          "type": "number",
+          "name": "age"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "when did you born?",
+      "children": [
+        {
+          "type": "date",
+          "name": "dateOfBirth"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "Are you married?",
+      "children": [
+        {
+          "type": "checkbox",
+          "name": "martialStatus"
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "Address ",
+      "children": [
+        {
+          "type": "textarea",
+          "name": "address",
+          "placeholder": "Berlin/Germany",
+          "rows": 4,
+          "cols": 4
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "Pick a number"
+    },
+    {
+      "type": "label",
+      "labelText": "26",
+      "children": [
+        {
+          "type": "radio",
+          "name": "randomNumber",
+          "value": 26
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "34",
+      "children": [
+        {
+          "type": "radio",
+          "name": "randomNumber",
+          "value": 34
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "67",
+      "children": [
+        {
+          "type": "radio",
+          "name": "randomNumber",
+          "value": 67
+        }
+      ]
+    },
+    {
+      "type": "label",
+      "labelText": "0",
+      "children": [
+        {
+          "type": "radio",
+          "name": "randomNumber",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "submit",
+      "children": ["Save"]
+    },
+    {
+      "type": "reset",
+      "children": ["Clear form"]
+    }
+  ]
+}
